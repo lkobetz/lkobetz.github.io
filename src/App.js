@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
-import profile_photo from "./small_profile_photo.jpeg";
-import linkedin from "./linkedin2.svg";
-import github from "./github.svg";
+import profile_photo from "./images/small_profile_photo.jpeg";
+import linkedin from "./images/linkedin2.svg";
+import github from "./images/github.svg";
 
 function App() {
   return (
@@ -21,15 +21,24 @@ function App() {
         <div className={"text"}>
           <h3>Hi! I'm Larissa Kobetz, a full stack software developer.</h3>
           <div className={"all_pages"}>
-            <Link to="/about">
+            <Link
+              to="/about"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               <h5 className={"pages"}>About Me</h5>
             </Link>{" "}
             <h5>|</h5>
-            <Link to="/projects">
+            <Link
+              to="/projects"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               <h5 className={"pages"}>Projects</h5>
             </Link>{" "}
             <h5>|</h5>
-            <Link to="/contact">
+            <Link
+              to="/contact"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               <h5 className={"pages"}>Contact</h5>
             </Link>
           </div>

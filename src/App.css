@@ -1,7 +1,7 @@
 html {
   width: 100%;
   height: 100%;
-  background-image: url("shl.png");
+  background-image: url("images/shl.png");
   background-repeat: repeat;
 }
 
@@ -27,12 +27,22 @@ html {
   margin-top: 50px;
 }
 
+.about_me_photo {
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 50px;
   margin-top: 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
 }
 
 #logos {
