@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a5a9bae31508509c8895375f89a5d9f",
+    "revision": "4a7828a8cfb0cd925dc9559051f98f57",
     "url": "/index.html"
   },
   {
-    "revision": "ab34fd6d434da7d1d1e2",
-    "url": "/static/css/main.b50af018.chunk.css"
+    "revision": "272aac1fb4fab2b67392",
+    "url": "/static/css/main.f5ccc510.chunk.css"
   },
   {
-    "revision": "cc8f3eb6058f730fda6d",
-    "url": "/static/js/2.b9c25de8.chunk.js"
+    "revision": "bcecfdb93dc939ebb314",
+    "url": "/static/js/2.b0680768.chunk.js"
   },
   {
-    "revision": "ab34fd6d434da7d1d1e2",
-    "url": "/static/js/main.f0a84a19.chunk.js"
+    "revision": "272aac1fb4fab2b67392",
+    "url": "/static/js/main.c4e45e0f.chunk.js"
   },
   {
     "revision": "e97ceebcb8bbb5abd2af",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b68bf6ca547f6540f1d22d76cc5749c",
     "url": "/static/media/github.4b68bf6c.svg"
+  },
+  {
+    "revision": "72599f147081879d42471bdf1042433a",
+    "url": "/static/media/glass_temple.72599f14.JPG"
   },
   {
     "revision": "9a894325c337a8e6e46746d7fd41353c",
