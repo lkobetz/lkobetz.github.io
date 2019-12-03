@@ -8,13 +8,7 @@ export default props => {
       <div className={"text"}>
         <h2>About Me</h2>
         <div className={"section"}>
-          <img
-            className={"about_me_photo"}
-            src={glass_temple}
-            alt={""}
-            width={300}
-            height={400}
-          ></img>
+          <img className={"about_me_photo"} src={glass_temple} alt={""}></img>
           <h5>
             With a background in English language education, I loved finding
             creative ways to engage students in learning new concepts. Pursuing
