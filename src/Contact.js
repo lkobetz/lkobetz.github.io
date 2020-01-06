@@ -52,7 +52,7 @@ class Contact extends React.Component {
       //       Submit
       //     </button>
       //   </form>
-      </div>
+      // </div>
     );
   }
 
