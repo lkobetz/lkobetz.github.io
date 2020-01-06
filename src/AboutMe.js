@@ -26,7 +26,7 @@ export default props => {
             In my free time, I love traveling and learning about the people,
             cultures, and history of the world. I've lived in England, Thailand,
             and Malaysia and have visited 20 other countries. I also love
-            reading and playing games!
+            reading, exploring, and playing games!
           </h5>
         </div>
       </div>
