@@ -13,8 +13,8 @@ export default props => {
           <h5>
             Formerly an ESL teacher, I'm a graduate and fellow of the Grace
             Hopper Program at Fullstack Academy. I love learning everything I
-            can about software development, building apps, and writing clean,
-            maintainable, testable code.
+            can about software development, solving problems, building apps, and
+            writing clean, maintainable, readable code.
             <br></br>
             <br></br>I also love traveling, reading, exploring, and playing
             games. I've lived in England, Thailand, and Malaysia and have
