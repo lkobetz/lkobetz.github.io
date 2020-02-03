@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
-import profile_photo from "./images/small_profile_photo.jpeg";
+import profile_photo from "./images/prague_2019.jpg";
 import linkedin from "./images/linkedin2.svg";
 import github from "./images/github.svg";
 
@@ -19,7 +19,7 @@ function App() {
           width={350}
         ></img>
         <div className={"text"}>
-          <h3>Hi! I'm Larissa Kobetz, a full stack software developer.</h3>
+          <h3>Hi! I'm Larissa, a full stack software developer.</h3>
           <div className={"all_pages"}>
             <Link
               to="/about"

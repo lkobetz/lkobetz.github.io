@@ -1,33 +1,30 @@
 import React from "react";
 import "./App.css";
+import bagan from "./images/bagan.jpg";
 import glass_temple from "./images/glass_temple.JPG";
+import berlin from "./images/berlin.jpg";
 
 export default props => {
   return (
-    <div className={"App-header"}>
+    <div className={"Section-header"}>
       <div className={"text"}>
         <h2>About Me</h2>
         <div className={"section"}>
-          <img className={"about_me_photo"} src={glass_temple} alt={""}></img>
           <h5>
-            With a background in English language education, I loved finding
-            creative ways to engage students in learning new concepts. Pursuing
-            more automated, interactive tools to spice up my lessons inspired me
-            to learn more about Technology. I wanted to learn the skills to
-            build new and engaging products myself to improve user/learner
-            experiences. After completing the Grace Hopper bootcamp, I now work
-            as a Software Engineering Teaching Fellow, combining my love of
-            teaching and coding. I’ve become more and more fascinated with the
-            possibilities Technology offers to solve complex problems, and am
-            eager to launch a career that will allow me to explore the potential
-            applications of Technology to improve our world.
+            Formerly an ESL teacher, I'm a graduate and fellow of the Grace
+            Hopper Program at Fullstack Academy. I love learning everything I
+            can about software development, building apps, and writing clean,
+            maintainable, testable code.
             <br></br>
-            <br></br>
-            In my free time, I love traveling and learning about the people,
-            cultures, and history of the world. I've lived in England, Thailand,
-            and Malaysia and have visited 20 other countries. I also love
-            reading, exploring, and playing games!
+            <br></br>I also love traveling, reading, exploring, and playing
+            games. I've lived in England, Thailand, and Malaysia and have
+            visited about 20 other countries.
           </h5>
+          <div className={"photos"}>
+            <img className={"about_me_photo"} src={bagan} alt={""}></img>
+            <img className={"about_me_photo"} src={glass_temple} alt={""}></img>
+            <img className={"about_me_photo"} src={berlin} alt={""}></img>
+          </div>
         </div>
       </div>
     </div>
