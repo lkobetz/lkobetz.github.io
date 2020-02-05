@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
-import profile_photo from "./images/prague_2019.jpg";
+import profile_photo from "./images/profile_photo copy.JPG";
 import linkedin from "./images/linkedin2.svg";
 import github from "./images/github.svg";
 
 function App() {
   return (
     <div className="App">
-      {/* <nav className="navbar">
-        <p>This is the nav bar</p>
-      </nav> */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="//fonts.googleapis.com/css?family=Nixie+One"
+      />
       <header className="App-header">
         <img
           className={"profile_photo"}
