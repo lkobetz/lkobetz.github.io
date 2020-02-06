@@ -58,6 +58,7 @@ p {
   flex-direction: column;
   max-width: 60%;
   background-color: rgb(208, 233, 265, .4);
+  justify-content: center;
 }
 
 #section {
@@ -76,9 +77,15 @@ p {
   /* flex: 3; */
 }
 
-#projects_title {
-  margin-left: 50px;
-  margin-top: 50px;
+.projects_title {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github_space {
+  padding-left: 20px;;
 }
 
 
@@ -88,6 +95,7 @@ p {
 }
 
 .single_project {
+  display: flex;
   flex-direction: column;
   margin-left: 300px;
   margin-right: 300px;
@@ -95,7 +103,6 @@ p {
 
 .project_item {
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 Embed {
@@ -112,17 +119,15 @@ Embed {
   border-radius: 175px;
   margin-left: 50px;
   margin-top: 50px;
+  margin-right: 50px;
 }
 
 .photos {
-  margin-right: 50px;
   flex-grow: 2;
 }
 
 .about_me_photo {
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 40px;
+  margin-left: 20px;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -248,4 +253,5 @@ Embed {
         animation: swing 1s ease;
         webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
+        color: #6600ff;
 }

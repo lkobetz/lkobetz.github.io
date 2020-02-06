@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./NavBar";
 import Embed from "react-embed";
+import github from "./images/github.svg";
 
 export default props => {
   return (
@@ -15,7 +16,17 @@ export default props => {
       <div className={"Section-header"}>
         <div id={"projects"}>
           <div className={"single_project"}>
-            <h3 className={"project_item"}>Grace In Space</h3>
+            <div className={"projects_title"}>
+              <h3 className={"project_item"}>Grace In Space</h3>
+              <a href="https://github.com/graceinspace/graceInSpace">
+                <img
+                  className={"github_space"}
+                  src={github}
+                  width={30}
+                  alt={""}
+                ></img>
+              </a>
+            </div>
             <h5 className={"project_item"}>
               Grace in Space is a virtual reality mobile game in which players
               help an elderly alien collect items that flew out of her bag while
@@ -23,6 +34,7 @@ export default props => {
               <br />
               It was built with JavaScript, React Native, Redux, Viro React,
               Firebase, Firestore, and Git
+              <br />
             </h5>
             <Embed
               className={"project_item"}
@@ -38,13 +50,24 @@ export default props => {
             />
           </div>
           <div className={"single_project"}>
-            <h3 className={"project_item"}>Idiomatic</h3>
+            <div className={"projects_title"}>
+              <h3 className={"project_item"}>Idiomatic</h3>
+              <a href="https://github.com/lkobetz/stackathon">
+                <img
+                  className={"github_space"}
+                  src={github}
+                  width={30}
+                  alt={""}
+                ></img>
+              </a>
+            </div>
             <h5 className={"project_item"}>
               Idiomatic is a mobile app that helps English language learners
               practice their sentence structure and spelling while learning new
               idioms. <br />
               <br />
               It was built with JavaScript, React Native, Node.js, and Git
+              <br />
             </h5>
             <Embed url={"https://www.youtube.com/watch?v=nNw_wC0WL-Y"} />
           </div>
