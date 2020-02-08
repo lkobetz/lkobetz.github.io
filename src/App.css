@@ -28,8 +28,11 @@ p {
 #navbar {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   font-size: calc(7px + 2vmin);
+}
+
+#contact_container {
+  width: 100%;
 }
 
 .App-header {
