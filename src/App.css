@@ -7,6 +7,10 @@ html {
   background-attachment: fixed;
 }
 
+#root {
+  display: flex;
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -50,8 +54,11 @@ p {
 
 #aboutme {
   display: flex;
-  flex-direction: row;
   margin: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #aboutme {flex-direction: column;}
 }
 
 .section_container {
@@ -59,6 +66,11 @@ p {
   max-width: 60%;
   background-color: rgb(208, 233, 265, .4);
   justify-content: center;
+  margin-bottom: 30px;;
+}
+
+@media only screen and (max-width: 1000px) {
+  .section_container {max-width: 100%;}
 }
 
 #section {
@@ -137,11 +149,14 @@ p {
 }
 
 .about_me_photo {
-  margin-left: 20px;
   justify-content: center;
   width: 100%;
   height: auto;
-  align-self: flex-end;
+  align-self: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about_me_photo {margin-left: 20px;}
 }
 
 .text {
