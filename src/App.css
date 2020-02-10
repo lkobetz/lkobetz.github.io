@@ -17,7 +17,7 @@ html {
   width: 100vw;
 }
 
-h2, h3, h4, h5, p {
+h2, h3, h4, h5, p, label {
   font-family: 'Nixie One';
 }
 
@@ -29,10 +29,6 @@ p {
   display: flex;
   justify-content: space-around;
   font-size: calc(7px + 2vmin);
-}
-
-#contact_container {
-  width: 100%;
 }
 
 .App-header {
@@ -114,6 +110,35 @@ p {
   flex-direction: column;
   margin-left: 400px;
   margin-right: 400px;
+}
+
+#contact_container {
+  width: 100%;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.form_group {
+  flex-direction: column;
+}
+
+
+.submit_button {
+  width: 100px;
 }
 
 
