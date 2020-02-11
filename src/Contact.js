@@ -39,32 +39,32 @@ class Contact extends React.Component {
             method="POST"
           >
             <div className="form-group">
-              <label htmlFor="name">Name: </label>
               <input
                 type="text"
                 className="form-control"
                 value={this.state.name}
+                placeholder={"Name"}
                 onChange={this.onNameChange.bind(this)}
               />
             </div>
             <br />
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email Address: </label>
               <input
                 type="email"
                 className="form-control"
                 aria-describedby="emailHelp"
                 value={this.state.email}
+                placeholder={"Email"}
                 onChange={this.onEmailChange.bind(this)}
               />
             </div>{" "}
             <br />
             <div className="form-group">
-              <label htmlFor="message">Message: </label>
               <textarea
                 className="form-control"
                 rows="5"
                 value={this.state.message}
+                placeholder={"Message"}
                 onChange={this.onMessageChange.bind(this)}
               />
             </div>

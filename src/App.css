@@ -19,6 +19,7 @@ html {
 
 h2, h3, h4, h5, p, label {
   font-family: 'Nixie One';
+  line-height: 1.5;
 }
 
 p {
@@ -126,11 +127,6 @@ p {
   margin-right: 500px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-}
 
 .form_group {
   flex-direction: column;
