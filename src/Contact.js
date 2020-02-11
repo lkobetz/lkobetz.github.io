@@ -22,36 +22,27 @@ class Contact extends React.Component {
           href="//fonts.googleapis.com/css?family=Nixie+One"
         />
         <div className="Contact">
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="//fonts.googleapis.com/css?family=Lekton"
-          />
           <h3>
             If you're interested in working together, send me a message with
             your name and an email address I can reach you at. I look forward to
             hearing from you!
           </h3>
           <br />
-          <form
-            id="contact-form"
-            onSubmit={this.handleSubmit.bind(this)}
-            method="POST"
-          >
-            <div className="form-group">
+          <form onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <div>
               <input
+                className={"form-item"}
                 type="text"
-                className="form-control"
                 value={this.state.name}
                 placeholder={"Name"}
                 onChange={this.onNameChange.bind(this)}
               />
             </div>
             <br />
-            <div className="form-group">
+            <div>
               <input
+                className={"form-item"}
                 type="email"
-                className="form-control"
                 aria-describedby="emailHelp"
                 value={this.state.email}
                 placeholder={"Email"}
@@ -59,9 +50,9 @@ class Contact extends React.Component {
               />
             </div>{" "}
             <br />
-            <div className="form-group">
+            <div>
               <textarea
-                className="form-control"
+                className={"form-item"}
                 rows="5"
                 value={this.state.message}
                 placeholder={"Message"}
