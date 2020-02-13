@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
-import profile_photo from "./images/profile_photo copy.JPG";
+// import profile_photo from "./images/profile_photo copy.JPG";
 import linkedin from "./images/linkedin2.svg";
 import github from "./images/github.svg";
 
@@ -14,34 +14,34 @@ function App() {
         href="//fonts.googleapis.com/css?family=Nixie+One"
       />
       <header className="App-header">
-        <img
+        {/* <img
           className={"profile_photo"}
           src={profile_photo}
           alt={""}
           width={350}
-        ></img>
+        ></img> */}
         <div className={"text"}>
-          <h3>Hi! I'm Larissa, a full stack software developer.</h3>
+          <h1>Hi! I'm Larissa, a full stack software developer.</h1>
           <div className={"all_pages"}>
             <Link
               to="/about"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <h5 className={"pages"}>About Me</h5>
+              <h3 className={"pages"}>About Me</h3>
             </Link>{" "}
-            <h5>|</h5>
+            <h3>|</h3>
             <Link
               to="/projects"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <h5 className={"pages"}>Projects</h5>
+              <h3 className={"pages"}>Projects</h3>
             </Link>{" "}
-            <h5>|</h5>
+            <h3>|</h3>
             <Link
               to="/contact"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <h5 className={"pages"}>Contact</h5>
+              <h3 className={"pages"}>Contact</h3>
             </Link>
           </div>
           <div id={"logos"}>

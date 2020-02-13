@@ -22,11 +22,11 @@ class Contact extends React.Component {
           href="//fonts.googleapis.com/css?family=Nixie+One"
         />
         <div className="Contact">
-          <h3>
+          <h2>
             If you're interested in working together, send me a message with
             your name and an email address I can reach you at. I look forward to
             hearing from you!
-          </h3>
+          </h2>
           <br />
           <form onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div>
