@@ -9,6 +9,10 @@ html {
   background-attachment: fixed;
 }
 
+@media only screen and (max-width: 1000px) {
+  html {background-size: 300%; background-position-x: center;}
+}
+
 #root {
   display: flex;
 }
