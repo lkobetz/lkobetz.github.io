@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[10],{139:function(r,e,t){"use strict";t.r(e);var o=t(0);e.default=function(r){var e=r.id;return(0,r.renderWrap)(o.createElement("iframe",{src:"https://gfycat.com/ifr/"+e,width:"100%",height:"500px",frameBorder:"0",scrolling:"no",allowFullScreen:!0}))}}}]);
+//# sourceMappingURL=10.6bce0734.chunk.js.map
