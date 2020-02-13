@@ -1,3 +1,5 @@
+/* style for all pages */
+
 html {
   width: 100vw;
   height: 100vh;
@@ -9,12 +11,6 @@ html {
 
 #root {
   display: flex;
-}
-
-.App {
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 h2, h3, h4, h5, p, label {
@@ -32,6 +28,14 @@ p {
   font-size: calc(7px + 2vmin);
 }
 
+/* home page */
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
 .App-header {
   display: flex;
   flex-direction: row;
@@ -44,17 +48,73 @@ p {
   color: black;
 }
 
-.Section-header {
+.profile_photo {
+  border-radius: 175px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#hi {
+  font-size: calc(100px + 2vmin);
+}
+
+.text {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  font-size: calc(7px + 2vmin);
-  color: black;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+.all_pages {
+  display: flex;
+  flex-direction: row;
+}
+
+.pages {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pages:hover
+{
+        webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        color: #6600ff;
+}
+
+#logos {
+  flex-direction: row;
+}
+
+.logo {
+  width: 50px;
+  margin: 15px;
+}
+
+#linkedin.logo:hover
+{
+  webkit-transform: rotateZ(-30deg);
+  ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+
+#github.logo:hover
+{
+  webkit-transform: rotateZ(30deg);
+  ms-transform: rotateZ(30deg);
+  transform: rotateZ(30deg);
+}
+
+/* about me page */
 
 #aboutme {
   display: flex;
-  margin: 50px;
+  margin: 3%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -82,24 +142,26 @@ p {
   font-size: calc(5px + 2vmin);
 }
 
-#section_title {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-size: calc(7px + 2vmin);
-  /* flex: 3; */
+.about_me_photo {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  align-self: center;
 }
 
-.projects_title {
+@media only screen and (min-width: 1000px) {
+  .about_me_photo {margin-left: 20px;}
+}
+
+/* style for projects page */
+
+.Section-header {
   display: flex;
-  margin-top: 30px;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: calc(7px + 2vmin);
+  color: black;
 }
-
-.github_space {
-  padding-left: 20px;;
-}
-
 
 #projects {
   display: flex;
@@ -108,10 +170,42 @@ p {
 }
 
 .single_project {
-  flex-direction: column;
-  margin-left: 400px;
-  margin-right: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  background-color: rgb(208, 233, 265, .4);
 }
+
+@media only screen and (max-width: 1000px) {
+  .single_project {flex-direction: column;}
+}
+
+.projects_text {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.project_item {
+  align-self: flex-start;
+}
+
+.demos {
+  margin: 5%;
+  width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects_text, .demos {width: 90%;}
+}
+
+.github_space {
+  padding-left: 20px;
+}
+
+/* style for contact page */
 
 #contact_container {
   width: 100%;
@@ -137,104 +231,19 @@ form {
   width: 100%;
 }
 
-
-
 .submit_button {
   width: 100px;
   align-self: center;
 }
 
+/* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .App-header, .section {flex-direction: column; justify-content: center;}
 }
 
-@media only screen and (max-width: 1300px) {
-  .single_project {margin-left: 300px; margin-right: 300px;}
-}
-
-@media only screen and (max-width: 1200px) {
-  .single_project {margin-left: 200px; margin-right: 200px;}
-}
-
-@media only screen and (max-width: 1000px) {
-  .single_project {margin-left: 100px; margin-right: 100px;}
-}
-
-@media only screen and (max-width: 800px) {
-  .single_project {margin-left: 5px; margin-right: 5px;}
-}
-
-
-
-.profile_photo {
-  border-radius: 175px;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-right: 50px;
-}
-
-.photos {
-  flex-grow: 2;
-}
-
-.about_me_photo {
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  align-self: center;
-}
-
-@media only screen and (min-width: 1000px) {
-  .about_me_photo {margin-left: 20px;}
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-#logos {
-  flex-direction: row;
-}
-
-.logo {
-  width: 50px;
-  margin: 15px;
-}
-
-#linkedin.logo:hover
-{
-  webkit-transform: rotateZ(-30deg);
-  ms-transform: rotateZ(-30deg);
-  transform: rotateZ(-30deg);
-}
-
-#github.logo:hover
-{
-  webkit-transform: rotateZ(30deg);
-  ms-transform: rotateZ(30deg);
-  transform: rotateZ(30deg);
-}
-
-.App-link {
-  color: #09d3ac;
-}
-
-.all_pages {
-  display: flex;
-  flex-direction: row;
-}
-
-.pages {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+/* animations */
 
 @-webkit-keyframes swing
 {
@@ -301,13 +310,4 @@ form {
         webkit-transform: translateX(0);
         transform: translateX(0);
     }
-}
-
-.pages:hover
-{
-        webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-        color: #6600ff;
 }
