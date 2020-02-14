@@ -32,6 +32,10 @@ p {
   font-size: calc(7px + 2vmin);
 }
 
+.statement_font {
+  font-family: 'Over the Rainbow';
+}
+
 /* home page */
 
 .App {
@@ -196,6 +200,8 @@ p {
 
 .project_item {
   align-self: flex-start;
+  font-family: 'Over the Rainbow';
+  font-size: 40px;
 }
 
 .demos {
@@ -222,7 +228,8 @@ p {
 .Contact {
   align-self: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 50%;
 }
 

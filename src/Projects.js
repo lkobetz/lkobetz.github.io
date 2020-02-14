@@ -12,6 +12,11 @@ export default props => {
         type="text/css"
         href="//fonts.googleapis.com/css?family=Nixie+One"
       />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
+      />
       <NavBar />
       <div className={"Section-header"}>
         <div id={"projects"}>
@@ -28,15 +33,6 @@ export default props => {
                   ></img>
                 </a>
               </h3>
-              <h5>
-                Grace in Space is a virtual reality mobile game in which players
-                help an elderly alien collect items that flew out of her bag
-                while she was traveling through space on vacation. <br />
-                <br />
-                It was built with JavaScript, React Native, Redux, Viro React,
-                Firebase, Firestore, and Git
-                <br />
-              </h5>
               <h5>
                 Grace in Space is a virtual reality mobile game in which players
                 help an elderly alien collect items that flew out of her bag
@@ -76,7 +72,7 @@ export default props => {
                 </a>
               </h3>
 
-              <h5 className={"project_item"}>
+              <h5>
                 Idiomatic is a mobile app that helps English language learners
                 practice their sentence structure and spelling while learning
                 new idioms. <br />
