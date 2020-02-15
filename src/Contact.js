@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import config from "./config";
 import NavBar from "./NavBar";
 
 class Contact extends React.Component {
@@ -84,10 +85,7 @@ class Contact extends React.Component {
   async handleSubmit(event) {
     event.preventDefault();
     // create another project in express and send this to that server
-    const response = await axios.post(
-      "https://secret-harbor-77463.herokuapp.com/",
-      this.state
-    ); // localhost: http://localhost:8000, heroku: https://secret-harbor-77463.herokuapp.com/
+    const response = await axios.post(config.address, this.state);
     console.log("response.data from axios", response.data);
     if (response.data.status === "success") {
       alert(
