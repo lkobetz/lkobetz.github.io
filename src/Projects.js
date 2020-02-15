@@ -12,11 +12,11 @@ export default props => {
         type="text/css"
         href="//fonts.googleapis.com/css?family=Nixie+One"
       />
-      <link
+      {/* <link
         rel="stylesheet"
         type="text/css"
         href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-      />
+      /> */}
       <NavBar />
       <div className={"Section-header"}>
         <div id={"projects"}>
@@ -71,7 +71,6 @@ export default props => {
                   ></img>
                 </a>
               </h3>
-
               <h5>
                 Idiomatic is a mobile app that helps English language learners
                 practice their sentence structure and spelling while learning

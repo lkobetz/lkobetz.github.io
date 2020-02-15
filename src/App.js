@@ -13,11 +13,11 @@ function App() {
         type="text/css"
         href="//fonts.googleapis.com/css?family=Nixie+One"
       />
-      <link
+      {/* <link
         rel="stylesheet"
         type="text/css"
         href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-      />
+      /> */}
       <header className="App-header">
         {/* <img
           className={"profile_photo"}
@@ -26,9 +26,7 @@ function App() {
           width={350}
         ></img> */}
         <div className={"text"}>
-          <h1 className={"statement_font"}>
-            Hi! I'm Larissa, a full stack software developer.
-          </h1>
+          <h1>Hi! I'm Larissa, a full stack software developer.</h1>
           <div className={"all_pages"}>
             <Link
               to="/about"

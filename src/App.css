@@ -32,9 +32,9 @@ p {
   font-size: calc(7px + 2vmin);
 }
 
-.statement_font {
+/* .statement_font {
   font-family: 'Over the Rainbow';
-}
+} */
 
 /* home page */
 
@@ -200,7 +200,7 @@ p {
 
 .project_item {
   align-self: flex-start;
-  font-family: 'Over the Rainbow';
+  /* font-family: 'Over the Rainbow'; */
   font-size: 40px;
 }
 
