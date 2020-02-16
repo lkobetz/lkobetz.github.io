@@ -13,17 +13,17 @@ export default props => {
         type="text/css"
         href="//fonts.googleapis.com/css?family=Nixie+One"
       />
-      {/* <link
+      <link
         rel="stylesheet"
         type="text/css"
         href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-      /> */}
+      />
       <NavBar />
       <div className={"Section-header"}>
         <div id={"projects"}>
           <div className={"single_project"}>
             <div className={"projects_text"}>
-              <h3 className={"project_item"}>
+              <h4 className={"project_item"}>
                 Grace In Space
                 <a href="https://github.com/graceinspace/graceInSpace">
                   <img
@@ -33,7 +33,7 @@ export default props => {
                     alt={""}
                   ></img>
                 </a>
-              </h3>
+              </h4>
               <h5>
                 Grace in Space is a virtual reality mobile game in which players
                 help an elderly alien collect items that flew out of her bag
@@ -61,7 +61,7 @@ export default props => {
           </div>
           <div className={"single_project"}>
             <div className={"projects_text"}>
-              <h3 className={"project_item"}>
+              <h4 className={"project_item"}>
                 Idiomatic
                 <a href="https://github.com/lkobetz/stackathon">
                   <img
@@ -71,7 +71,7 @@ export default props => {
                     alt={""}
                   ></img>
                 </a>
-              </h3>
+              </h4>
               <h5>
                 Idiomatic is a mobile app that helps English language learners
                 practice their sentence structure and spelling while learning
@@ -87,7 +87,7 @@ export default props => {
           </div>
           <div className={"single_project"}>
             <div className={"projects_text"}>
-              <h3 className={"project_item"}>
+              <h4 className={"project_item"}>
                 Grace's Giddy Goblins
                 <a href="https://github.com/graces-giddy-goblins/grace_shopper">
                   <img
@@ -97,7 +97,7 @@ export default props => {
                     alt={""}
                   ></img>
                 </a>
-              </h3>
+              </h4>
               <h5>
                 Grace's Giddy Goblins is an e-commerce website run by four
                 goblins who used to be traveling salesgoblins, but took their

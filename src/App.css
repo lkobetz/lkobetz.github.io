@@ -179,6 +179,10 @@ p {
   margin-left: 20px;
 }
 
+.statement_font {
+  font-family: 'Over the Rainbow';
+}
+
 @media only screen and (max-width: 1000px) {
   .photos {margin-left: 0px;}
 }
@@ -196,12 +200,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 3%;
 }
 
 .single_project {
   display: flex;
   justify-content: center;
-  margin: 3%;
   background-color: rgb(208, 233, 265, .4);
 }
 
@@ -219,7 +223,7 @@ p {
 
 .project_item {
   align-self: flex-start;
-  /* font-family: 'Over the Rainbow'; */
+  font-family: 'Over the Rainbow';
   font-size: 40px;
 }
 

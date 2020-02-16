@@ -21,7 +21,7 @@ export default props => {
         <div className={"section_container"}>
           <div id={"section"}>
             <div>
-              <h3 className={"statement_font"}>Bio:</h3>
+              <h3 className={"statement_font"}>Bio</h3>
               <p>
                 <b>
                   I am a Software Engineer with a background in English language
@@ -42,7 +42,7 @@ export default props => {
                 </b>
               </p>{" "}
               <br></br>
-              <h3 className={"statement_font"}>Hobbies:</h3>
+              <h3 className={"statement_font"}>Hobbies</h3>
               <p>
                 <b>
                   I love traveling, reading, playing games and exploring. I've
@@ -51,7 +51,7 @@ export default props => {
                 </b>
               </p>{" "}
               <br></br>
-              <h3 className={"statement_font"}>Skills:</h3>
+              <h3 className={"statement_font"}>Skills</h3>
               <p>
                 <b>
                   Proficient: JavaScript, Node.js, Express.js, React, React
