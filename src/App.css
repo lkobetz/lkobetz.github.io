@@ -56,7 +56,7 @@ p {
   color: black;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .typewriter {
     overflow: hidden;
     border-right: .15em solid black;
@@ -107,11 +107,11 @@ p {
 
 .pages:hover
 {
-        webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-        color: #6600ff;
+  webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  color: #6600ff;
 }
 
 #logos {
@@ -215,7 +215,8 @@ p {
 
 .projects_text {
   display: flex;
-  margin: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
   flex-direction: column;
   align-items: center;
   width: 50%;
@@ -223,13 +224,28 @@ p {
 
 .project_item {
   align-self: flex-start;
+  margin-top: 10%;
+  margin-bottom: 3%;
   font-family: 'Over the Rainbow';
   font-size: 40px;
+}
+
+.project_description {
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .demos {
   margin: 5%;
   width: 40%;
+}
+
+#link {
+  color: black;
+}
+
+#link:hover {
+  color: #6600ff;
 }
 
 @media only screen and (max-width: 1000px) {

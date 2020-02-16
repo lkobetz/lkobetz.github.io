@@ -34,7 +34,7 @@ export default props => {
                   ></img>
                 </a>
               </h4>
-              <h5>
+              <h5 className={"project_description"}>
                 Grace in Space is a virtual reality mobile game in which players
                 help an elderly alien collect items that flew out of her bag
                 while she was traveling through space on vacation. <br />
@@ -72,7 +72,7 @@ export default props => {
                   ></img>
                 </a>
               </h4>
-              <h5>
+              <h5 className={"project_description"}>
                 Idiomatic is a mobile app that helps English language learners
                 practice their sentence structure and spelling while learning
                 new idioms. <br />
@@ -98,18 +98,18 @@ export default props => {
                   ></img>
                 </a>
               </h4>
-              <h5>
-                Grace's Giddy Goblins is an e-commerce website run by four
+              <h5 className={"project_description"}>
+                Grace's Giddy Goblins is an e-commerce website run by five
                 goblins who used to be traveling salesgoblins, but took their
-                business online when their routes became too difficult to
+                business online when their route became too difficult to
                 optimize. Browse their website for some magical wares you won't
                 find anywhere else... <br />
                 <br />
                 It was built with JavaScript, Express.js, Sequelize, PostgreSQL,
-                React, Redux, and Git
+                Heroku, React, Redux, and Git
                 <br />
                 <br />
-                <a href={"https://giddygoblins.herokuapp.com/"}>
+                <a id={"link"} href={"https://giddygoblins.herokuapp.com/"}>
                   Go to the site!
                 </a>
               </h5>
