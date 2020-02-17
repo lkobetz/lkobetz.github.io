@@ -8,18 +8,8 @@ import goblins from "./images/giddygoblins.png";
 export default props => {
   return (
     <div>
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="//fonts.googleapis.com/css?family=Nixie+One"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-      />
       <NavBar />
-      <div className={"Section-header"}>
+      <div className={"Section_header"}>
         <div id={"projects"}>
           <div className={"single_project"}>
             <div className={"projects_text"}>
@@ -77,7 +67,8 @@ export default props => {
                 practice their sentence structure and spelling while learning
                 new idioms. <br />
                 <br />
-                It was built with JavaScript, React Native, Node.js, and Git
+                It was built with JavaScript, React Native, Redux, Node.js, and
+                Git
                 <br />
               </h5>
             </div>

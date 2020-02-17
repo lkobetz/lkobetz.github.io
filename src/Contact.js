@@ -12,16 +12,10 @@ class Contact extends React.Component {
       message: ""
     };
   }
-
   render() {
     return (
       <div id="contact_container">
         <NavBar />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="//fonts.googleapis.com/css?family=Nixie+One"
-        />
         <div className="Contact">
           <h2>
             If you're interested in working together, send me a message with
@@ -32,7 +26,7 @@ class Contact extends React.Component {
           <form onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div>
               <input
-                className={"form-item"}
+                className={"form_item"}
                 type="text"
                 value={this.state.name}
                 placeholder={"Name"}
@@ -42,7 +36,7 @@ class Contact extends React.Component {
             <br />
             <div>
               <input
-                className={"form-item"}
+                className={"form_item"}
                 type="email"
                 aria-describedby="emailHelp"
                 value={this.state.email}
@@ -53,7 +47,7 @@ class Contact extends React.Component {
             <br />
             <div>
               <textarea
-                className={"form-item"}
+                className={"form_item"}
                 rows="5"
                 value={this.state.message}
                 placeholder={"Message"}

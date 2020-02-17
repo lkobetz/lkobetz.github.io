@@ -30,17 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="//fonts.googleapis.com/css?family=Nixie+One"
-        />
-        {/* <link
-        rel="stylesheet"
-        type="text/css"
-        href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-      /> */}
-        <header className="App-header">
+        <header className="App_header">
           {/* <img
           className={"profile_photo"}
           src={profile_photo}

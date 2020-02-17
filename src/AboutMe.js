@@ -8,16 +8,6 @@ export default props => {
     <div>
       <NavBar />
       <div id={"aboutme"}>
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="//fonts.googleapis.com/css?family=Nixie+One"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="//fonts.googleapis.com/css?family=Over+the+Rainbow"
-        />
         <div className={"section_container"}>
           <div id={"section"}>
             <div>

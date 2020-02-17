@@ -44,7 +44,7 @@ p {
   width: 100vw;
 }
 
-.App-header {
+.App_header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -189,7 +189,7 @@ p {
 
 /* style for projects page */
 
-.Section-header {
+.Section_header {
   display: flex;
   flex-direction: column;
   font-size: calc(7px + 2vmin);
@@ -278,7 +278,7 @@ form {
   width: 100%;
 }
 
-.form-item {
+.form_item {
   width: 100%;
   line-height: 25px;
   font-size: 15px;
