@@ -56,12 +56,22 @@ p {
   color: black;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 @media only screen and (min-width: 1200px) {
-  .typewriter {
+  #typewriter {
+    align-self: flex-start;
     overflow: hidden;
     border-right: .15em solid black;
     white-space: nowrap;
-    margin: 0 auto;
+    margin: 0;
     letter-spacing: .1em;
     animation:
       typing 3.5s steps(40, end),
@@ -69,7 +79,7 @@ p {
   }
 
   @keyframes typing {
-    from { width: 0 }
+    from { width: 0% }
     to { width: 100% }
   }
 
@@ -84,15 +94,6 @@ p {
   margin-left: 50px;
   margin-top: 50px;
   margin-right: 50px;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .all_pages {

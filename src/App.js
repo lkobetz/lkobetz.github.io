@@ -38,7 +38,7 @@ class App extends React.Component {
           width={350}
         ></img> */}
           <div className={"text"}>
-            <h1 className={"typewriter"}>
+            <h1 id={"typewriter"}>
               Hi! I'm Larissa, a full stack software developer.
             </h1>
             <div className={"all_pages"}>

@@ -29,8 +29,8 @@ export default props => {
                 help an elderly alien collect items that flew out of her bag
                 while she was traveling through space on vacation. <br />
                 <br />
-                It was built with JavaScript, React Native, Redux, Viro React,
-                Firebase, Firestore, and Git
+                It was built with Node.js, JavaScript, React Native, Redux, Viro
+                React, Firebase, Firestore, and Git
                 <br />
               </h5>
             </div>
@@ -67,7 +67,7 @@ export default props => {
                 practice their sentence structure and spelling while learning
                 new idioms. <br />
                 <br />
-                It was built with JavaScript, React Native, Redux, Node.js, and
+                It was built with Node.js, JavaScript, React Native, Redux, and
                 Git
                 <br />
               </h5>
@@ -96,8 +96,8 @@ export default props => {
                 optimize. Browse their website for some magical wares you won't
                 find anywhere else... <br />
                 <br />
-                It was built with JavaScript, Express.js, Sequelize, PostgreSQL,
-                Heroku, React, Redux, and Git
+                It was built with Node.js, JavaScript, Express.js, Sequelize,
+                PostgreSQL, Heroku, React, Redux, and Git
                 <br />
                 <br />
                 <a id={"link"} href={"https://giddygoblins.herokuapp.com/"}>
