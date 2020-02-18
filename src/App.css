@@ -285,6 +285,10 @@ form {
   font-size: 15px;
 }
 
+textarea {
+  resize: none;
+}
+
 .submit_button {
   width: 100px;
   align-self: center;
