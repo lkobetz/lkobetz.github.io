@@ -55,7 +55,7 @@ export default props => {
                 <a
                   className={"link"}
                   href={resume}
-                  download="LarissaKobetzResume"
+                  download={"LarissaKobetzResume"}
                 >
                   Download My Resume!
                 </a>
