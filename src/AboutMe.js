@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import "./App.css";
 import berlin from "./images/berlin.jpg";
+import resume from "./resume/LarissaKobetzResume_nocontact.pdf";
 
 export default props => {
   return (
@@ -49,6 +50,15 @@ export default props => {
                   Familiar: SQL, PostgreSQL, Heroku, Firebase / Firestore, Viro
                   React
                 </b>
+                <br />
+                <br />
+                <a
+                  className={"link"}
+                  href={resume}
+                  download="LarissaKobetzResume"
+                >
+                  Download My Resume!
+                </a>
               </p>
             </div>
           </div>

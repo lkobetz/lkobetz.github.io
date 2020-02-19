@@ -241,11 +241,11 @@ p {
   width: 40%;
 }
 
-#link {
+.link {
   color: black;
 }
 
-#link:hover {
+.link:hover {
   color: #6600ff;
 }
 

@@ -100,7 +100,10 @@ export default props => {
                 PostgreSQL, Heroku, React, Redux, and Git
                 <br />
                 <br />
-                <a id={"link"} href={"https://giddygoblins.herokuapp.com/"}>
+                <a
+                  className={"link"}
+                  href={"https://giddygoblins.herokuapp.com/"}
+                >
                   Go to the site!
                 </a>
               </h5>
