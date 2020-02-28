@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "./NavBar";
 import "./App.css";
 import berlin from "./images/berlin.jpg";
-// import resume from "./resume/LarissaKobetzResume_nocontact.pdf";
 
 export default props => {
   return (
@@ -54,7 +53,7 @@ export default props => {
                 <br />
                 {/* <a
                   className={"link"}
-                  href={resume}
+                  href={"https://lkobetz.github.io/static/js/src/resume"}
                   download={"LarissaKobetzResume"}
                 >
                   Download My Resume!

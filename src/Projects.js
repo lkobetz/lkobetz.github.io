@@ -67,8 +67,8 @@ export default props => {
                 practice their sentence structure and spelling while learning
                 new idioms. <br />
                 <br />
-                It was built with Node.js, JavaScript, React Native, Redux, and
-                Git
+                It was built with Node.js, JavaScript, React Native, React
+                Native Navigation, Redux, and Git
                 <br />
               </h5>
             </div>
