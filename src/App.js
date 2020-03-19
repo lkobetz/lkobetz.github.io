@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
-// import profile_photo from "./images/profile_photo copy.JPG";
 import linkedin from "./images/linkedin2.svg";
 import github from "./images/github.svg";
 

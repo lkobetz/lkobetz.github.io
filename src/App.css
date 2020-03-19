@@ -142,7 +142,7 @@ p {
 
 #aboutme {
   display: flex;
-  margin: 3%;
+  margin: 1% 3% 3% 3%
 }
 
 @media only screen and (max-width: 1000px) {
@@ -201,7 +201,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3%;
+  margin: 1% 3% 3% 3%
 }
 
 .single_project {

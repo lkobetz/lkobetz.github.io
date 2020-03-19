@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-import "./App.css";
 import berlin from "./images/berlin.jpg";
 
 export default props => {

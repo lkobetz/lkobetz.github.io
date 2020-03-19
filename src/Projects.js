@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import NavBar from "./NavBar";
 import Embed from "react-embed";
 import github from "./images/github.svg";
