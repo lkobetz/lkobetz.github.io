@@ -95,7 +95,7 @@ export default props => {
                 all of their transactions. <br />
                 <br />
                 It was built with Node.js, JavaScript, Express.js, Sequelize,
-                React, and Git
+                React, IEX Cloud API, and Git
                 <br />
                 <br />
                 <a
