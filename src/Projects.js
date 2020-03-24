@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Embed from "react-embed";
 import github from "./images/github.svg";
 import goblins from "./images/giddygoblins.png";
+import stocks from "./images/stock_portfolio.png";
 
 export default props => {
   return (
@@ -73,6 +74,40 @@ export default props => {
             </div>
             <div className={"demos"}>
               <Embed url={"https://www.youtube.com/watch?v=nNw_wC0WL-Y"} />
+            </div>
+          </div>
+          <div className={"single_project"}>
+            <div className={"projects_text"}>
+              <h4 className={"project_item"}>
+                Stock Portfolio
+                <a href="https://github.com/lkobetz/TTPProject">
+                  <img
+                    className={"github_space"}
+                    src={github}
+                    width={30}
+                    alt={""}
+                  ></img>
+                </a>
+              </h4>
+              <h5 className={"project_description"}>
+                A mock stock portfolio app in which users can buy stocks, view
+                the activity of the stocks they've purchased, and view a list of
+                all of their transactions. <br />
+                <br />
+                It was built with Node.js, JavaScript, Express.js, Sequelize,
+                React, and Git
+                <br />
+                <br />
+                <a
+                  className={"link"}
+                  href={"https://larissa-ttp-project.herokuapp.com/#/"}
+                >
+                  Go to the site!
+                </a>
+              </h5>
+            </div>
+            <div className={"demos"}>
+              <img src={stocks} alt={""} width={"100%"}></img>
             </div>
           </div>
           <div className={"single_project"}>
