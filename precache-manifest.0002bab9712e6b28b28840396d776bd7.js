@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d7b9b936c13218e86ba223927f577c6",
+    "revision": "c1218011d9bf587ab6eeb60d9d77d47a",
     "url": "/index.html"
   },
   {
-    "revision": "69d76aca5f065d6901d2",
+    "revision": "89ff3f568dae8ecded4f",
     "url": "/static/css/main.13c27048.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.d859658a.chunk.js"
   },
   {
-    "revision": "69d76aca5f065d6901d2",
-    "url": "/static/js/main.1e04d0a6.chunk.js"
+    "revision": "89ff3f568dae8ecded4f",
+    "url": "/static/js/main.34e792fa.chunk.js"
   },
   {
     "revision": "4662ca82226c0ead87f2",
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/phuchifa.453f0645.jpg"
   },
   {
-    "revision": "f874ce15bc2cfd2f68089945de26a888",
-    "url": "/static/media/stock_portfolio.f874ce15.png"
+    "revision": "57248d1add1f2b8cdb6b811b267faeea",
+    "url": "/static/media/stock_portfolio.57248d1a.png"
   }
 ]);
