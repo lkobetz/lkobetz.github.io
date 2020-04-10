@@ -31,6 +31,8 @@ export default (props) => {
                 <br />
                 It was built with Node.js, JavaScript, React Native, React
                 Native Navigation, Redux, and Git
+                <br />
+                <br />I built this app independently.
                 <h5>
                   Biggest Challenges:
                   <ul>
@@ -49,8 +51,8 @@ export default (props) => {
                       Problem: Due to the asynchronous nature of React's
                       'setState' method, 'Hint' button doesn't finish clearing
                       the current solution before displaying the hint, resulting
-                      in duplicate letters in solution, which frequently causes
-                      a domino effect of errors.
+                      in duplicate letters in solution, which can cause a domino
+                      effect of errors.
                     </li>
                     <li>
                       Solution: Use promises to chain 'clear' and 'displayHint'
@@ -79,17 +81,19 @@ export default (props) => {
               </h4>
               <h5 className={"project_description"}>
                 A mock stock portfolio app in which users can buy stocks, view
-                the activity of the stocks they've purchased, and view a list of
-                all of their transactions. <br />
+                the activity of stocks they've purchased, and view a list of all
+                of their transactions. <br />
                 <br />
                 It was built with Node.js, JavaScript, Express.js, Sequelize,
                 React, IEX Cloud API, and Git
+                <br />
+                <br />I built this app independently.
                 <h5>
                   Biggest Challenges:
                   <ul>
                     <li>
                       Problem: Prevent users from viewing any data besides their
-                      own.
+                      own
                     </li>
                     <li>
                       Solution: Use express-sessions to create a session for a
@@ -106,21 +110,22 @@ export default (props) => {
                     <li>
                       Solution: Click handler on 'submit' button calls a
                       function bound to its parent component, which resets its
-                      state (causing it to re-render) and passes it down to its
-                      other child, which re-renders when it receives it.
+                      state (causing it to re-render) and passes it down as a
+                      prop to its other child, which re-renders when it receives
+                      it.
                     </li>
                   </ul>
                 </h5>
-                <a
-                  className={"link"}
-                  href={"https://larissa-ttp-project.herokuapp.com/#/"}
-                >
-                  Go to the site!
-                </a>
               </h5>
             </div>
             <div className={"demos"}>
               <img src={stocks} alt={""} width={"100%"}></img>
+              <a
+                className={"link"}
+                href={"https://larissa-ttp-project.herokuapp.com/#/"}
+              >
+                <h5>Go to the site!</h5>
+              </a>
             </div>
           </div>
           <div className={"single_project"}>
@@ -145,6 +150,13 @@ export default (props) => {
                 React, Firebase, Firestore, and Git
                 <br />
                 <h5>
+                  This was a group project. My contributions included
+                  spearheading game design, wireframing, and code structure,
+                  designing and implementing the navigation system, integrating
+                  the timer component through Redux, and improving UX by adding
+                  animations and difficulty levels.
+                </h5>
+                <h5>
                   Biggest Challenges:
                   <ul>
                     <li>
@@ -154,19 +166,19 @@ export default (props) => {
                     </li>
                     <li>
                       Solution: Pressing 'play' triggers a state change in the
-                      Redux store that conditionally renders the VR screen
-                      instead of the welcome screen.
+                      Redux store that conditionally renders the VR 'space'
+                      screen instead of the welcome screen.
                     </li>
                     <br />
                     <li>
                       Problem: Save each of the user's scores (seconds taken to
-                      complete game) in a database.
+                      complete game) in a database
                     </li>
                     <li>
                       Solution: Score is updated in Redux with every timer
                       re-render (ie every second). When the user wins the game,
                       a function is triggered that adds the most recent score
-                      from the Redux store into user's 'scores' array in the
+                      from the Redux store into the user's 'scores' array in the
                       Firestore database. Storing the user's scores in an array
                       in a NoSQL database makes it simple to display them on the
                       user's profile.
@@ -204,26 +216,60 @@ export default (props) => {
                 </a>
               </h4>
               <h5 className={"project_description"}>
-                Grace's Giddy Goblins is an e-commerce website run by five
-                goblins who used to be traveling salesgoblins, but took their
-                business online when their route became too difficult to
-                optimize. Browse their website for some magical wares you won't
-                find anywhere else... <br />
+                Grace's Giddy Goblins is a fantastical mock e-commerce website
+                run by four goblins and their scrum master. <br />
                 <br />
                 It was built with Node.js, JavaScript, Express.js, Sequelize,
                 PostgreSQL, Heroku, React, Redux, and Git
                 <br />
-                <br />
-                <a
-                  className={"link"}
-                  href={"https://giddygoblins.herokuapp.com/"}
-                >
-                  Go to the site!
-                </a>
+                <h5>
+                  This was a group project. My contributions included building
+                  React components to display items and user’s cart, fetching
+                  data asynchronously using axios calls, writing RESTful API
+                  routes and Sequelize models/queries to interact with data from
+                  a PostgreSQL database, and collaborating on relational
+                  database schema and handling persistence of user data.
+                </h5>
+                <h5>
+                  Biggest Challenges:
+                  <ul>
+                    <li>
+                      Problem: Users must be able to view the items in their
+                      current cart (separate from previous purchases). It isn't
+                      enough to have one 'cart' table because it wouldn't
+                      differentiate between previous and current carts.
+                    </li>
+                    <li>
+                      Solution: Create an 'orders' table to store each
+                      individual order, with a userId as a foreign key. Create a
+                      through table called 'cart' that establishes a many-many
+                      association between orders and items. Each instance of
+                      'cart' has orderId and itemId as foreign keys, as well as
+                      a quantity of the item.
+                    </li>
+                    <br />
+                    <li>
+                      Problem: Allow guests (not logged in users) to add to and
+                      update their cart.
+                    </li>
+                    <li>
+                      Solution: Save the guest's cart as an array in the
+                      express-session, and use the Sequelize store to create a
+                      table for it in the database, where it will persist for 24
+                      hours.
+                    </li>
+                  </ul>
+                </h5>
               </h5>
             </div>
             <div className={"demos"}>
               <img src={goblins} alt={""} width={"100%"}></img>
+              <a
+                className={"link"}
+                href={"https://giddygoblins.herokuapp.com/"}
+              >
+                <h5>Go to the site!</h5>
+              </a>
             </div>
           </div>
         </div>

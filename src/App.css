@@ -249,6 +249,7 @@ p {
 
 .link {
   color: black;
+  text-align: center;
 }
 
 .link:hover {

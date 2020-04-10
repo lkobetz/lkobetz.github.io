@@ -7,37 +7,17 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      intro: ""
+      intro: "",
     };
   }
-  // aborted attempt at animating with react
-  // componentDidMount() {
-  //   this.startTyping();
-  // }
-  // startTyping() {
-  //   const text = "Hi! I'm Larissa, a full stack software developer.";
-  //   let counter = 0;
-  //   setInterval(() => {
-  //     while (counter < text.length) {
-  //       console.log(text[counter]);
-  //     }
-  //   }, 1000);
-  //   counter++;
-  // }
 
   render() {
     return (
       <div className="App">
         <header className="App_header">
-          {/* <img
-          className={"profile_photo"}
-          src={profile_photo}
-          alt={""}
-          width={350}
-        ></img> */}
           <div className={"text"}>
             <h1 id={"typewriter"}>
-              Hi! I'm Larissa, a full stack software developer.
+              Hi! I'm Larissa, a full stack software engineer.
             </h1>
             <div className={"all_pages"}>
               <Link
