@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import berlin from "./images/berlin.jpg";
 
-export default props => {
+export default (props) => {
   return (
     <div>
       <NavBar />
@@ -29,16 +29,7 @@ export default props => {
                   allow me to explore the potential applications of Technology
                   to improve our world.
                 </b>
-              </p>{" "}
-              <br></br>
-              <h3 className={"statement_font"}>Hobbies</h3>
-              <p>
-                <b>
-                  I love traveling, reading, playing games and exploring. I've
-                  lived in England, Thailand, and Malaysia and have visited
-                  about 20 other countries.
-                </b>
-              </p>{" "}
+              </p>
               <br></br>
               <h3 className={"statement_font"}>Skills</h3>
               <p>
@@ -50,6 +41,14 @@ export default props => {
                 </b>
                 <br />
                 <br />
+                <h3 className={"statement_font"}>Hobbies</h3>
+                <p>
+                  <b>
+                    I love traveling, reading, playing games and exploring. I've
+                    lived in England, Thailand, and Malaysia and have visited
+                    about 20 other countries.
+                  </b>
+                </p>{" "}
                 {/* <a
                   className={"link"}
                   href={"https://lkobetz.github.io/static/js/src/resume"}

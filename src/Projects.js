@@ -5,7 +5,7 @@ import github from "./images/github.svg";
 import goblins from "./images/giddygoblins.png";
 import stocks from "./images/stock_portfolio.png";
 
-export default props => {
+export default (props) => {
   return (
     <div>
       <NavBar />
@@ -31,7 +31,33 @@ export default props => {
                 <br />
                 It was built with Node.js, JavaScript, React Native, React
                 Native Navigation, Redux, and Git
-                <br />
+                <h5>
+                  Biggest Challenges:
+                  <ul>
+                    <li>
+                      Problem: Incorporate a timer that starts over when a new
+                      idiom loads
+                    </li>
+                    <li>
+                      Solution: Use React's componentDidUpdate lifecycle method
+                      in the Timer component to 'listen' for parent component's
+                      state changes (such as 'timeUp' or 'started') that
+                      indicate whether the timer should restart.
+                    </li>
+                    <br />
+                    <li>
+                      Problem: Due to the asynchronous nature of React's
+                      'setState' method, 'Hint' button doesn't finish clearing
+                      the current solution before displaying the hint, resulting
+                      in duplicate letters in solution, which frequently causes
+                      a domino effect of errors.
+                    </li>
+                    <li>
+                      Solution: Use promises to chain 'clear' and 'displayHint'
+                      function calls
+                    </li>
+                  </ul>
+                </h5>
               </h5>
             </div>
             <div className={"demos"}>
@@ -58,8 +84,33 @@ export default props => {
                 <br />
                 It was built with Node.js, JavaScript, Express.js, Sequelize,
                 React, IEX Cloud API, and Git
-                <br />
-                <br />
+                <h5>
+                  Biggest Challenges:
+                  <ul>
+                    <li>
+                      Problem: Prevent users from viewing any data besides their
+                      own.
+                    </li>
+                    <li>
+                      Solution: Use express-sessions to create a session for a
+                      user and Sequelize store to save the session data in a
+                      database (thus preventing memory leaks.) Only serve up
+                      data of the user currently logged into the session,
+                      regardless of the URL or client-side data in localStorage.
+                    </li>
+                    <br />
+                    <li>
+                      Problem: Parent and sibling React components need to
+                      automatically rerender when user buys a new stock.
+                    </li>
+                    <li>
+                      Solution: Click handler on 'submit' button calls a
+                      function bound to its parent component, which resets its
+                      state (causing it to re-render) and passes it down to its
+                      other child, which re-renders when it receives it.
+                    </li>
+                  </ul>
+                </h5>
                 <a
                   className={"link"}
                   href={"https://larissa-ttp-project.herokuapp.com/#/"}
@@ -93,6 +144,35 @@ export default props => {
                 It was built with Node.js, JavaScript, React Native, Redux, Viro
                 React, Firebase, Firestore, and Git
                 <br />
+                <h5>
+                  Biggest Challenges:
+                  <ul>
+                    <li>
+                      Problem: Viro React is incompatible with React Native
+                      Navigation, making it impossible to navigate from a
+                      'static' screen to a VR screen.
+                    </li>
+                    <li>
+                      Solution: Pressing 'play' triggers a state change in the
+                      Redux store that conditionally renders the VR screen
+                      instead of the welcome screen.
+                    </li>
+                    <br />
+                    <li>
+                      Problem: Save each of the user's scores (seconds taken to
+                      complete game) in a database.
+                    </li>
+                    <li>
+                      Solution: Score is updated in Redux with every timer
+                      re-render (ie every second). When the user wins the game,
+                      a function is triggered that adds the most recent score
+                      from the Redux store into user's 'scores' array in the
+                      Firestore database. Storing the user's scores in an array
+                      in a NoSQL database makes it simple to display them on the
+                      user's profile.
+                    </li>
+                  </ul>
+                </h5>
               </h5>
             </div>
             <div className={"demos"}>

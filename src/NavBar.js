@@ -6,7 +6,7 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      url: ""
+      url: "",
     };
   }
   componentDidMount() {
@@ -22,37 +22,43 @@ class NavBar extends React.Component {
           to="/"
           style={{ textDecoration: "none", color: "black" }}
         >
-          <h5>Home</h5>
+          <h5 className={"nav_link"}>Home</h5>
         </Link>
         <Link
           params={"about"}
           to="/about"
           style={{
             textDecoration: "none",
-            color: this.state.url === "about" ? "#6600ff" : "black"
+            color: this.state.url === "about" ? "#6600ff" : "black",
           }}
         >
-          <h5>About Me</h5>
+          <h5 className={this.state.url === "about" ? null : "nav_link"}>
+            About Me
+          </h5>
         </Link>{" "}
         <Link
           params={"projects"}
           to="/projects"
           style={{
             textDecoration: "none",
-            color: this.state.url === "projects" ? "#6600ff" : "black"
+            color: this.state.url === "projects" ? "#6600ff" : "black",
           }}
         >
-          <h5>Projects</h5>
+          <h5 className={this.state.url === "projects" ? null : "nav_link"}>
+            Projects
+          </h5>
         </Link>
         <Link
           params={"contact"}
           to="/contact"
           style={{
             textDecoration: "none",
-            color: this.state.url === "contact" ? "#6600ff" : "black"
+            color: this.state.url === "contact" ? "#6600ff" : "black",
           }}
         >
-          <h5>Contact</h5>
+          <h5 className={this.state.url === "contact" ? null : "nav_link"}>
+            Contact
+          </h5>
         </Link>
       </nav>
     );

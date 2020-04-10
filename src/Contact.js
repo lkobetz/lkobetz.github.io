@@ -8,7 +8,7 @@ class Contact extends React.Component {
     this.state = {
       name: "",
       email: "",
-      message: ""
+      message: "",
     };
   }
   render() {
@@ -18,8 +18,8 @@ class Contact extends React.Component {
         <div className="Contact">
           <h2>
             If you're interested in working together, send me a message with
-            your name and an email address I can reach you at. I look forward to
-            hearing from you!
+            your name and an email address where I can reach you. I look forward
+            to hearing from you!
           </h2>
           <br />
           <form onSubmit={this.handleSubmit.bind(this)} method="POST">

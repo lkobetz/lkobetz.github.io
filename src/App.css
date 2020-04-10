@@ -32,6 +32,11 @@ p {
   font-size: calc(7px + 2vmin);
 }
 
+.nav_link:hover {
+  text-shadow: 1px 2px 5px #a974f8;
+  color: #6600ff
+}
+
 /* .statement_font {
   font-family: 'Over the Rainbow';
 } */
